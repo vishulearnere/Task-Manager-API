@@ -40,7 +40,10 @@ const tasksRouter = require('./routes/tasks')
 //
 // routes
 app.get('/', (req, res) => {
-  res.send('<h1>Jobs API</h1><a href="/api-docs">Documentation</a>')
+  res.send(
+    '<h1> Task-Manager API</h1> <a href="https://github.com/vishulearnere/Task-Manager-API"> Source Code</a>'
+  )
+  // res.send('<h1> Task-Manager API</h1><a href="/api-docs">Documentation</a>')
 })
 // app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument))
 
